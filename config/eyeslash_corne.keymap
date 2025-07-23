@@ -114,11 +114,11 @@
         };
 
         sym {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
+             bindings = <
+&trans  &kp LEFT_BRACE  &kp AMPERSAND  &kp ASTERISK          &kp LEFT_PARENTHESIS   &kp RIGHT_BRACE                            &mmv MOVE_UP                     &trans  &trans     &trans     &trans    &trans    &trans
+&trans  &kp COLON       &kp DOLLAR     &kp PERCENT           &kp CARET              &kp PLUS                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans  &kp RSHFT  &kp RCTRL  &kp LALT  &kp RGUI  &trans
+&trans  &kp TILDE       &kp EXCL       &kp AT                &kp HASH               &kp PIPE         &trans                    &mmv MOVE_DOWN                   &trans  &trans     &trans     &kp RALT  &trans    &trans
+                                       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER                                                                   &trans  &trans     &trans
             >;
 
             label = "SYM";
@@ -126,10 +126,10 @@
 
         fun {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
+&trans  &kp F12  &kp F7  &kp F8             &kp F9     &kp PRINTSCREEN                            &mmv MOVE_UP                     &trans  &trans     &trans     &trans    &trans    &trans
+&trans  &kp F11  &kp F4  &kp F5             &kp F6     &kp SCROLLLOCK             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans  &kp RSHFT  &kp RCTRL  &kp LALT  &kp RGUI  &trans
+&trans  &kp F10  &kp F1  &kp F2             &kp F3     &kp PAUSE_BREAK  &trans                    &mmv MOVE_DOWN                   &trans  &trans     &trans     &kp RALT  &trans    &trans
+                         &kp K_APPLICATION  &kp SPACE  &kp TAB                                                                     &trans  &trans     &trans
             >;
 
             label = "FUN";
@@ -137,10 +137,10 @@
 
         button {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
+&trans  &kp K_UNDO  &kp LS(DEL)  &kp LC(INS)  &kp LS(INS)     &kp K_REDO                             &mmv MOVE_UP                     &kp K_REDO   &kp LS(INS)     &kp LC(INS)  &kp LS(DEL)  &kp K_UNDO  &trans
+&trans  &kp LGUI    &kp LALT     &kp LCTRL    &kp LSHFT       &trans                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans       &kp RSHFT       &kp RCTRL    &kp LALT     &kp RGUI    &trans
+&trans  &trans      &kp RALT     &sys_reset   &studio_unlock  &bootloader  &trans                    &mmv MOVE_DOWN                   &bootloader  &studio_unlock  &sys_reset   &kp RALT     &trans      &trans
+                                 &mkp MCLK    &mkp LCLK       &mkp RCLK                                                               &mkp RCLK    &mkp LCLK       &mkp MCLK
             >;
 
             label = "BUTTON";
