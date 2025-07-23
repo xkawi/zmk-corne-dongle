@@ -104,10 +104,10 @@
 
         num {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
+&trans  &kp LEFT_BRACKET  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp RIGHT_BRACKET                            &mmv MOVE_UP                     &trans  &trans     &trans     &trans    &trans    &trans
+&trans  &kp SEMI          &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL                    &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans  &kp RSHFT  &kp RCTRL  &kp LALT  &kp RGUI  &trans
+&trans  &kp GRAVE         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH      &trans                    &mmv MOVE_DOWN                   &trans  &trans     &trans     &kp RALT  &trans    &trans
+                                        &kp DOT       &kp NUMBER_0  &kp MINUS                                                                     &trans  &trans     &trans
             >;
 
             label = "NUM";
