@@ -69,10 +69,10 @@
         nav {
             display-name = "NAV";
             bindings = <
-&trans  &trans    &trans    &trans     &trans      &trans                            &mmv MOVE_UP                     &kp K_REDO  &kp LS(INS)     &kp LC(INS)     &kp LS(DELETE)  &kp K_UNDO  &trans
-&trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHIFT  &trans            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &caps_word  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW    &kp RIGHT   &trans
-&trans  &trans    &kp RALT  &trans     &trans      &trans  &trans                    &mmv MOVE_DOWN                   &kp INSERT  &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP     &kp END     &trans
-                            &trans     &trans      &trans                                                             &kp ENTER   &kp BACKSPACE   &kp DELETE
+&trans  &trans    &trans    &trans     &trans      &trans                                &mmv MOVE_UP                     &kp K_REDO    &kp LS(INS)     &kp LC(INS)     &kp LS(DELETE)  &kp K_UNDO  &trans
+&trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHIFT  &caps_word            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp CAPSLOCK  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW    &kp RIGHT   &trans
+&trans  &trans    &kp RALT  &trans     &trans      &trans      &trans                    &mmv MOVE_DOWN                   &kp INSERT    &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP     &kp END     &trans
+                            &trans     &trans      &trans                                                                 &kp ENTER     &kp BACKSPACE   &kp DELETE
             >;
 
             sensor-bindings = <&scroll_encoder>;
